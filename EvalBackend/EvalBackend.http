@@ -1,0 +1,6 @@
+@EvalBackend_HostAddress = http://localhost:5106
+
+GET {{EvalBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
